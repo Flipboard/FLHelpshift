@@ -12,25 +12,25 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		013D60666D978B8D3FDD29C5CF139046 /* Helpshift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Helpshift.h; path = "helpshift-sdk-ios-v5.7.1/Helpshift.h"; sourceTree = "<group>"; };
+		05E914FE2A2569633702566396657B9E /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftCampaigns.h; path = "helpshift-sdk-ios-v5.8.0/HelpshiftCampaigns.h"; sourceTree = "<group>"; };
 		173DB3177F86052862BE8100AE2D33A0 /* Pods-FLHelpshift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLHelpshift-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2C892886130CA4EA27FD5EB85715733E /* Pods-FLHelpshift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLHelpshift-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F9DF03803DE0F377DBF3BAC6ADE8251 /* Pods-FLHelpshift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLHelpshift-frameworks.sh"; sourceTree = "<group>"; };
+		30C39F4A3FCC4C5A875055C8ED0ACDDF /* Helpshift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Helpshift.h; path = "helpshift-sdk-ios-v5.8.0/Helpshift.h"; sourceTree = "<group>"; };
+		371F463D72C37CDC81117577FAB5C7AA /* HsUIResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HsUIResourceBundle.bundle; path = "helpshift-sdk-ios-v5.8.0/HsUIResourceBundle.bundle"; sourceTree = "<group>"; };
 		3C61DAE89917EA0B6FB4FF8665008941 /* Pods-FLHelpshift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLHelpshift-dummy.m"; sourceTree = "<group>"; };
-		825507FDF638418A2ACD29B5AED2BD0E /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftCampaigns.h; path = "helpshift-sdk-ios-v5.7.1/HelpshiftCampaigns.h"; sourceTree = "<group>"; };
-		8D1038F5E1731DC06DFF8041EFBCCB1C /* HelpshiftCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftCore.h; path = "helpshift-sdk-ios-v5.7.1/HelpshiftCore.h"; sourceTree = "<group>"; };
-		91E5574D2D78BA7E36E1E09342619DD7 /* HelpshiftInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftInbox.h; path = "helpshift-sdk-ios-v5.7.1/HelpshiftInbox.h"; sourceTree = "<group>"; };
+		626F7CFED7D022FDD4B82675C39A3438 /* HelpshiftInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftInbox.h; path = "helpshift-sdk-ios-v5.8.0/HelpshiftInbox.h"; sourceTree = "<group>"; };
+		7591F442420BDC618D57673680A5BC2C /* HelpshiftAll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftAll.h; path = "helpshift-sdk-ios-v5.8.0/HelpshiftAll.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		96990309CC6E58BD63AB182502A0B9C2 /* HelpshiftSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftSupport.h; path = "helpshift-sdk-ios-v5.7.1/HelpshiftSupport.h"; sourceTree = "<group>"; };
 		A806880B22935A564173345B48D7F1DE /* Pods-FLHelpshift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLHelpshift.debug.xcconfig"; sourceTree = "<group>"; };
-		B6BE4E3F9F1588DFB7B8124D3F471C98 /* HsLocalization.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HsLocalization.bundle; path = "helpshift-sdk-ios-v5.7.1/HsLocalization.bundle"; sourceTree = "<group>"; };
-		C3EA544FD5C5C0B061ACEC7B30284257 /* HelpshiftConfigDark.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = HelpshiftConfigDark.plist; path = "helpshift-sdk-ios-v5.7.1/HSThemes/HelpshiftConfigDark.plist"; sourceTree = "<group>"; };
-		C4FDE99BFE803CAA40E93B9109292CA0 /* HelpshiftAll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftAll.h; path = "helpshift-sdk-ios-v5.7.1/HelpshiftAll.h"; sourceTree = "<group>"; };
+		A96ED652CBC31784D60D73DF3D382D2F /* HelpshiftConfigDark.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = HelpshiftConfigDark.plist; path = "helpshift-sdk-ios-v5.8.0/HSThemes/HelpshiftConfigDark.plist"; sourceTree = "<group>"; };
+		B438A1F6136FA64214C8D2DDFD5F2446 /* HelpshiftSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftSupport.h; path = "helpshift-sdk-ios-v5.8.0/HelpshiftSupport.h"; sourceTree = "<group>"; };
+		BF2A8705EADC7AF30CC0DADB71DC5FD3 /* HelpshiftCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftCore.h; path = "helpshift-sdk-ios-v5.8.0/HelpshiftCore.h"; sourceTree = "<group>"; };
 		C6505BC78BD050DD67B68F95900BE55F /* libPods-FLHelpshift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLHelpshift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CCDF7AE1566E5F1F0CB4612E48048F6C /* HelpshiftConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = HelpshiftConfig.plist; path = "helpshift-sdk-ios-v5.7.1/HSThemes/HelpshiftConfig.plist"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D46CB2FB3596BBE4DAE8EED7AF4911D5 /* HsLocalization.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HsLocalization.bundle; path = "helpshift-sdk-ios-v5.8.0/HsLocalization.bundle"; sourceTree = "<group>"; };
+		F2A10AC7288750B61F26AD839993989A /* HelpshiftConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = HelpshiftConfig.plist; path = "helpshift-sdk-ios-v5.8.0/HSThemes/HelpshiftConfig.plist"; sourceTree = "<group>"; };
 		F5A9BDD41C20BDD9CEF4AAC00368EBE0 /* Pods-FLHelpshift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLHelpshift.release.xcconfig"; sourceTree = "<group>"; };
-		F7686A4C7E8F4BC47E93E032D28752D9 /* HsUIResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HsUIResourceBundle.bundle; path = "helpshift-sdk-ios-v5.7.1/HsUIResourceBundle.bundle"; sourceTree = "<group>"; };
 		FDB5FA113520C20C4B84C135A771AB42 /* Pods-FLHelpshift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLHelpshift-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,26 +46,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		252DD4E7E754B36E654767186ADC7FA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2A10AC7288750B61F26AD839993989A /* HelpshiftConfig.plist */,
+				A96ED652CBC31784D60D73DF3D382D2F /* HelpshiftConfigDark.plist */,
+				D46CB2FB3596BBE4DAE8EED7AF4911D5 /* HsLocalization.bundle */,
+				371F463D72C37CDC81117577FAB5C7AA /* HsUIResourceBundle.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		44BEC11ABF44F7A2799AE6CB5FF67490 /* Helpshift */ = {
-			isa = PBXGroup;
-			children = (
-				013D60666D978B8D3FDD29C5CF139046 /* Helpshift.h */,
-				C4FDE99BFE803CAA40E93B9109292CA0 /* HelpshiftAll.h */,
-				825507FDF638418A2ACD29B5AED2BD0E /* HelpshiftCampaigns.h */,
-				8D1038F5E1731DC06DFF8041EFBCCB1C /* HelpshiftCore.h */,
-				91E5574D2D78BA7E36E1E09342619DD7 /* HelpshiftInbox.h */,
-				96990309CC6E58BD63AB182502A0B9C2 /* HelpshiftSupport.h */,
-				75A5410346475EA12FA3E73C99BEEA1D /* Resources */,
-			);
-			path = Helpshift;
 			sourceTree = "<group>";
 		};
 		715383B5279C67F0992617F646E86644 /* Pods-FLHelpshift */ = {
@@ -83,17 +80,6 @@
 			path = "Target Support Files/Pods-FLHelpshift";
 			sourceTree = "<group>";
 		};
-		75A5410346475EA12FA3E73C99BEEA1D /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				CCDF7AE1566E5F1F0CB4612E48048F6C /* HelpshiftConfig.plist */,
-				C3EA544FD5C5C0B061ACEC7B30284257 /* HelpshiftConfigDark.plist */,
-				B6BE4E3F9F1588DFB7B8124D3F471C98 /* HsLocalization.bundle */,
-				F7686A4C7E8F4BC47E93E032D28752D9 /* HsUIResourceBundle.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -108,7 +94,7 @@
 		8CF0537704A4628CAA27C46A9B54261D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				44BEC11ABF44F7A2799AE6CB5FF67490 /* Helpshift */,
+				B5F76BE5DB7754370BF0B571AAFDDF0C /* Helpshift */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -119,6 +105,20 @@
 				715383B5279C67F0992617F646E86644 /* Pods-FLHelpshift */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B5F76BE5DB7754370BF0B571AAFDDF0C /* Helpshift */ = {
+			isa = PBXGroup;
+			children = (
+				30C39F4A3FCC4C5A875055C8ED0ACDDF /* Helpshift.h */,
+				7591F442420BDC618D57673680A5BC2C /* HelpshiftAll.h */,
+				05E914FE2A2569633702566396657B9E /* HelpshiftCampaigns.h */,
+				BF2A8705EADC7AF30CC0DADB71DC5FD3 /* HelpshiftCore.h */,
+				626F7CFED7D022FDD4B82675C39A3438 /* HelpshiftInbox.h */,
+				B438A1F6136FA64214C8D2DDFD5F2446 /* HelpshiftSupport.h */,
+				252DD4E7E754B36E654767186ADC7FA3 /* Resources */,
+			);
+			path = Helpshift;
 			sourceTree = "<group>";
 		};
 		BA3F67BA1F503BBCDBEFD689BC7E31AB /* Products */ = {

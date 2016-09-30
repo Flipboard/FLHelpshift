@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ED9CFCB7F0BDDC8051DE374 /* libPods-FLHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA992EE6FF9F7013E07EF5B3 /* libPods-FLHelpshift.a */; };
 		8E083B341C3DF57A00A344D9 /* Helpshift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E083B311C3DF57A00A344D9 /* Helpshift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E083B351C3DF57A00A344D9 /* HelpshiftCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E083B321C3DF57A00A344D9 /* HelpshiftCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E083B361C3DF57A00A344D9 /* HelpshiftSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E083B331C3DF57A00A344D9 /* HelpshiftSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -15,6 +16,7 @@
 
 /* Begin PBXFileReference section */
 		422F9885C67DF572310AA2A8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		4E090C709FE58555FBF1BC77 /* Pods-FLHelpshift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLHelpshift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLHelpshift/Pods-FLHelpshift.release.xcconfig"; sourceTree = "<group>"; };
 		4F2BACFDB202CE790BB7A5EA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E083B311C3DF57A00A344D9 /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Helpshift.h; path = "../Pods/Helpshift/helpshift-sdk-ios-v5.3.0-support/Helpshift.h"; sourceTree = "<group>"; };
 		8E083B321C3DF57A00A344D9 /* HelpshiftCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpshiftCore.h; path = "../Pods/Helpshift/helpshift-sdk-ios-v5.3.0-support/HelpshiftCore.h"; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		8E9253F41C37306C00ED8A9D /* FLHelpshift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLHelpshift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9253F91C37306C00ED8A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C64741F0E592ECA791BCE921 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		CD4F4C6C9EB7E53271D5F98E /* Pods-FLHelpshift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLHelpshift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FLHelpshift/Pods-FLHelpshift.debug.xcconfig"; sourceTree = "<group>"; };
+		EA992EE6FF9F7013E07EF5B3 /* libPods-FLHelpshift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLHelpshift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +34,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0F363C829A55A62B5A403BD /* libPods.a in Frameworks */,
+				5ED9CFCB7F0BDDC8051DE374 /* libPods-FLHelpshift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +46,8 @@
 			children = (
 				422F9885C67DF572310AA2A8 /* Pods.debug.xcconfig */,
 				C64741F0E592ECA791BCE921 /* Pods.release.xcconfig */,
+				CD4F4C6C9EB7E53271D5F98E /* Pods-FLHelpshift.debug.xcconfig */,
+				4E090C709FE58555FBF1BC77 /* Pods-FLHelpshift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -78,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				4F2BACFDB202CE790BB7A5EA /* libPods.a */,
+				EA992EE6FF9F7013E07EF5B3 /* libPods-FLHelpshift.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,12 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E9253FC1C37306C00ED8A9D /* Build configuration list for PBXNativeTarget "FLHelpshift" */;
 			buildPhases = (
-				F03C13D9276D8A58FA2F1FFB /* Check Pods Manifest.lock */,
+				F03C13D9276D8A58FA2F1FFB /* [CP] Check Pods Manifest.lock */,
 				8E9253EF1C37306C00ED8A9D /* Sources */,
 				8E9253F01C37306C00ED8A9D /* Frameworks */,
 				8E9253F11C37306C00ED8A9D /* Headers */,
 				8E9253F21C37306C00ED8A9D /* Resources */,
-				47530C40382F49C56C63AC32 /* Copy Pods Resources */,
+				47530C40382F49C56C63AC32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,29 +168,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		47530C40382F49C56C63AC32 /* Copy Pods Resources */ = {
+		47530C40382F49C56C63AC32 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FLHelpshift/Pods-FLHelpshift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F03C13D9276D8A58FA2F1FFB /* Check Pods Manifest.lock */ = {
+		F03C13D9276D8A58FA2F1FFB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +303,7 @@
 		};
 		8E9253FD1C37306C00ED8A9D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 422F9885C67DF572310AA2A8 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = CD4F4C6C9EB7E53271D5F98E /* Pods-FLHelpshift.debug.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -312,7 +320,7 @@
 		};
 		8E9253FE1C37306C00ED8A9D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C64741F0E592ECA791BCE921 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 4E090C709FE58555FBF1BC77 /* Pods-FLHelpshift.release.xcconfig */;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;

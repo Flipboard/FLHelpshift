@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5ED9CFCB7F0BDDC8051DE374 /* libPods-FLHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA992EE6FF9F7013E07EF5B3 /* libPods-FLHelpshift.a */; };
-		8E6F55D31D9E178100B74F68 /* Helpshift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55CD1D9E178100B74F68 /* Helpshift.h */; };
-		8E6F55D41D9E178100B74F68 /* HelpshiftAll.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55CE1D9E178100B74F68 /* HelpshiftAll.h */; };
-		8E6F55D51D9E178100B74F68 /* HelpshiftCampaigns.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55CF1D9E178100B74F68 /* HelpshiftCampaigns.h */; };
-		8E6F55D61D9E178100B74F68 /* HelpshiftCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55D01D9E178100B74F68 /* HelpshiftCore.h */; };
-		8E6F55D71D9E178100B74F68 /* HelpshiftInbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55D11D9E178100B74F68 /* HelpshiftInbox.h */; };
-		8E6F55D81D9E178100B74F68 /* HelpshiftSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55D21D9E178100B74F68 /* HelpshiftSupport.h */; };
+		8E6F55D31D9E178100B74F68 /* Helpshift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55CD1D9E178100B74F68 /* Helpshift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6F55D41D9E178100B74F68 /* HelpshiftAll.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55CE1D9E178100B74F68 /* HelpshiftAll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6F55D51D9E178100B74F68 /* HelpshiftCampaigns.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55CF1D9E178100B74F68 /* HelpshiftCampaigns.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6F55D61D9E178100B74F68 /* HelpshiftCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55D01D9E178100B74F68 /* HelpshiftCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6F55D71D9E178100B74F68 /* HelpshiftInbox.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55D11D9E178100B74F68 /* HelpshiftInbox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E6F55D81D9E178100B74F68 /* HelpshiftSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55D21D9E178100B74F68 /* HelpshiftSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

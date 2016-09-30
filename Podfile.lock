@@ -1,10 +1,12 @@
 PODS:
-  - Helpshift (5.3.0-support)
+  - Helpshift (5.8.0)
 
 DEPENDENCIES:
-  - Helpshift (= 5.3.0-support)
+  - Helpshift (= 5.8.0)
 
 SPEC CHECKSUMS:
-  Helpshift: 61e5fdaa58b391745c8ef94bd59ac3fc06b60dd4
+  Helpshift: 0fec6a13c2f30ce9a40e14b74f0aca0d6263f66b
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 0d7be9c35ab57a7144c8c5106bc30e3f03095dfd
+
+COCOAPODS: 1.0.1

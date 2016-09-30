@@ -82,12 +82,12 @@ strip() {
      done   
 
     # remove lines in xcode generated copy Pods-resources.sh file
-    for locale in $strip_list; do
-        local remove_line="${locale}.lproj"
-        sed -i "" "/.*$locale.lproj.*/d" ./Pods/Target\ Support\ Files/Pods/Pods-resources.sh 
+#    for locale in $strip_list; do
+#        local remove_line="${locale}.lproj"
+#        sed -i "" "/.*$locale.lproj.*/d" ./Pods/Target\ Support\ Files/Pods/Pods-resources.sh 
         ##echo "Remove line in Pods-resources.sh containing string $locale.lproj"
         ##echo "sed -i \"\" \"/.*$locale.lproj.*/d\" ./Pods/Target\ Support\ Files/Pods/Pods-resources.sh"
-     done
+#     done
  
 }
 

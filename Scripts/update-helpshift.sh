@@ -7,20 +7,20 @@ pod install
 
 # Remove localization files that aren't supported by Flipboard.
 
-supported_languages="zh-Hant zh-Hant-TW zh-Hant-HK zh-Hans tr ru pt pt-BR nl ko ja it fr es es-ES en en-IN en-GB en-CA en-AU de"
+supported_languages="zh-Hant zh-Hans tr ru pt nl ko ja it fr es en de"
 
 echo -e "\nRemoving unsupported localization files..."
 echo "---------------------------------------------"
 
-helpshift_localization_dir=$(find . -name "helpshift-sdk-ios-*-support" -type d -print | head -n1)
+helpshift_localization_dir=$(find . -name "HsLocalization.bundle" -type d -print | head -n1)
 
-./Scripts/strip-unused-language-files.sh -t $helpshift_localization_dir/HSLocalization -s "$supported_languages"
+./Scripts/strip-unused-language-files.sh -t $helpshift_localization_dir -s "$supported_languages"
 
 # Replace Helpshift strings by customized versions
 echo -e "\nReplacing Helpshift strings with customized strings..."
 echo "---------------------------------------------------------"
 
-./Scripts/customize-strings.sh $helpshift_localization_dir/HSLocalization 
+./Scripts/customize-strings.sh $helpshift_localization_dir 
 
 echo -e "\nBuilding xcode project"
 echo "---------------------------------------------------------"

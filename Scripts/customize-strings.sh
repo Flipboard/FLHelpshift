@@ -5,7 +5,7 @@ declare -a keys=(
 "Hated it"
 "Loved it"
 "Any other feedback? (optional)"
-"What\'s your feedback about our customer support?"
+"What's your feedback about our customer support?"
 "Sorry to hear that. Could you please tell us a little bit more about the problem you are facing?"
 "Email invalid"
 "Please enter a brief description of the issue you are facing."
@@ -41,7 +41,7 @@ declare -a es_strings=(
 "Mala"
 "¡Increíble!"
 "¿Tienes alguna sugerencia adicional para ayudarnos a mejorar? (opcional)"
-"\"Would you like to review the app?\" = \"¿Le gustaría valorar la app?"
+"¿Le gustaría valorar la app?"
 "Por favor califica tu experiencia de hoy con nuestro equipo de Soporte"
 "Lo sentimos. ¿Nos cuenta un poco más del problema que está teniendo?"
 "Dirección de correo electrónico no válida"
@@ -54,7 +54,7 @@ declare -a fr_strings=(
 "Médiocre"
 "Géniale !"
 "Avez-vous des commentaires supplémentaires à partager avec nous ? (facultatif)"
-"\"Would you like to review the app?\" = \"Voulez-vous évaluer l'appli?"
+"Voulez-vous évaluer l'appli?"
 "Veuillez nous faire part de votre expérience avec notre service d'assistance aujourd'hui"
 "Nous sommes désolés. Pourriez-vous nous en dire un peu plus au sujet du problème que vous avez rencontré?"
 "Adresse courriel non-valide"
@@ -67,7 +67,7 @@ declare -a it_strings=(
 "Scarso"
 "Fantastico"
 "Hai altri suggerimenti da proporci? (facoltativo)"
-"\"Would you like to review the app?\" = \"Vorresti recensire la app?"
+"Vorresti recensire la app?"
 "Ti chiediamo la cortesia di valutare il nostro servizio di assistenza"
 "Siamo molto spiacenti. Puoi fornirci maggiori informazioni sul problema che hai riscontrato?"
 "E-mail non valida"
@@ -80,7 +80,7 @@ declare -a ja_strings=(
 "良くない"
 "素晴らしい"
 "その他のフィードバックはありますか？（オプショナル）"
-"\"Would you like to review the app?\" = \"アプリを評価しますか？"
+"アプリを評価しますか？"
 "カスタマーサポートの評価をしてください"
 "申し訳ございませんが、直面されている問題についてもう少し詳しく教えていただけませんか?"
 "メールが無効です"
@@ -93,7 +93,7 @@ declare -a ko_strings=(
 "별로임"
 "최고임"
 "다른 피드백이 있으신가요? (선택사항)"
-"\"Would you like to review the app?\" = \"앱의 리뷰를 작성하시겠습니까?"
+"앱의 리뷰를 작성하시겠습니까?"
 "저희 도움말 이용 경험을 평가해 주세요"
 "문제가 발생했다니 죄송합니다. 발생한 문제에 대해 좀 더 자세히 설명해주시겠습니까?"
 "잘못된 이메일"
@@ -106,7 +106,7 @@ declare -a pt_strings=(
 "Ruim"
 "Ótimo!"
 "Algum comentário ou sugestão que você gostaria de compartilhar conosco? (opcional)"
-"\"Would you like to review the app?\" = \"Gostaria de fazer uma análise da aplicação?"
+"Gostaria de fazer uma análise da aplicação?"
 "Por favor, avalie o atendimento da nossa equipe de suporte"
 "Triste por ouvir isso. Você poderia nos contar um pouco mais sobre o problema que você está enfrentando?"
 "E-mail inválido"
@@ -119,7 +119,7 @@ declare -a ru_strings=(
 "Плохо"
 "Отлично!"
 "Будем благодарны за дополнительные комментарии"
-"\"Would you like to review the app?\" = \"Не хотели бы вы оставить отзыв о приложении?"
+"Не хотели бы вы оставить отзыв о приложении?"
 "Пожалуйста, оцените наш уровень поддержки по шкале"
 "Жаль об этом слышать. Не могли бы вы рассказать немного подробнее о проблеме, с которой столкнулись?"
 "Некорректная эл.почта"
@@ -132,7 +132,7 @@ declare -a tr_strings=(
 "Zayıf"
 "Müthiş!"
 "Bizimle paylaşmak istediğiniz başka yorumunuz var mı? (isteğe bağlı)"
-"\"Would you like to review the app?\" = \"Uygulamayı değerlendirmek istiyor musunuz?"
+"Uygulamayı değerlendirmek istiyor musunuz?"
 "Lütfen bugün aldığınız desteğin kalitesi için puan verin"
 "Bunu duyduğumuza üzüldük. Yaşadığınız sorunla ilgili biraz daha bilgi verebilir misiniz?"
 "E-posta geçersiz"
@@ -169,8 +169,8 @@ echo "plutil -replace \"$key\" -string \"${!replace_with_string}\" \"$dir/Helpsh
     done
     
     (( locales_count++ ))
-    if [ "$locales_count" = "2" ]; then
-    exit
-    fi
+#    if [ "$locales_count" = "2" ]; then
+#    exit
+#    fi
 done
 

@@ -7,7 +7,7 @@ pod install
 
 # Remove localization files that aren't supported by Flipboard.
 
-supported_languages="zh-Hant zh-Hant-TW zh-Hant-HK zh-Hans tr ru pt pt-BR nl ko ja it fr es es-ES en en-IN en-GB en-CA en-AU de"
+supported_languages="zh-Hant zh-Hans tr ru pt nl ko ja it fr es en de"
 
 echo -e "\nRemoving unsupported localization files..."
 echo "---------------------------------------------"

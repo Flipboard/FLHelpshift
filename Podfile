@@ -1,7 +1,7 @@
 xcodeproj 'FLHelpShift.xcodeproj'
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'FLHelpshift' do
-    pod 'Helpshift', '5.8.0'
+    pod 'Helpshift', '5.9.1'
 end

@@ -7,77 +7,76 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B0087CE6020256274E736C8E8B1BC48 /* Pods-FLHelpshift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C61DAE89917EA0B6FB4FF8665008941 /* Pods-FLHelpshift-dummy.m */; };
-		9A63AD349C529A55ABE152837F14729E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		5FD77C4A4F951B1D3F29A8929E61C309 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B284EDB21C85DD40C835E67441E56270 /* Pods-FLHelpshift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 553FAAED3B9EA025AC83CC0C016B1CC8 /* Pods-FLHelpshift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05E914FE2A2569633702566396657B9E /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftCampaigns.h; path = "helpshift-sdk-ios-v5.8.0/HelpshiftCampaigns.h"; sourceTree = "<group>"; };
-		173DB3177F86052862BE8100AE2D33A0 /* Pods-FLHelpshift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLHelpshift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C892886130CA4EA27FD5EB85715733E /* Pods-FLHelpshift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLHelpshift-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F9DF03803DE0F377DBF3BAC6ADE8251 /* Pods-FLHelpshift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLHelpshift-frameworks.sh"; sourceTree = "<group>"; };
-		30C39F4A3FCC4C5A875055C8ED0ACDDF /* Helpshift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Helpshift.h; path = "helpshift-sdk-ios-v5.8.0/Helpshift.h"; sourceTree = "<group>"; };
-		371F463D72C37CDC81117577FAB5C7AA /* HsUIResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HsUIResourceBundle.bundle; path = "helpshift-sdk-ios-v5.8.0/HsUIResourceBundle.bundle"; sourceTree = "<group>"; };
-		3C61DAE89917EA0B6FB4FF8665008941 /* Pods-FLHelpshift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLHelpshift-dummy.m"; sourceTree = "<group>"; };
-		626F7CFED7D022FDD4B82675C39A3438 /* HelpshiftInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftInbox.h; path = "helpshift-sdk-ios-v5.8.0/HelpshiftInbox.h"; sourceTree = "<group>"; };
-		7591F442420BDC618D57673680A5BC2C /* HelpshiftAll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftAll.h; path = "helpshift-sdk-ios-v5.8.0/HelpshiftAll.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A806880B22935A564173345B48D7F1DE /* Pods-FLHelpshift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLHelpshift.debug.xcconfig"; sourceTree = "<group>"; };
-		A96ED652CBC31784D60D73DF3D382D2F /* HelpshiftConfigDark.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = HelpshiftConfigDark.plist; path = "helpshift-sdk-ios-v5.8.0/HSThemes/HelpshiftConfigDark.plist"; sourceTree = "<group>"; };
-		B438A1F6136FA64214C8D2DDFD5F2446 /* HelpshiftSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftSupport.h; path = "helpshift-sdk-ios-v5.8.0/HelpshiftSupport.h"; sourceTree = "<group>"; };
-		BF2A8705EADC7AF30CC0DADB71DC5FD3 /* HelpshiftCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftCore.h; path = "helpshift-sdk-ios-v5.8.0/HelpshiftCore.h"; sourceTree = "<group>"; };
-		C6505BC78BD050DD67B68F95900BE55F /* libPods-FLHelpshift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLHelpshift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D46CB2FB3596BBE4DAE8EED7AF4911D5 /* HsLocalization.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HsLocalization.bundle; path = "helpshift-sdk-ios-v5.8.0/HsLocalization.bundle"; sourceTree = "<group>"; };
-		F2A10AC7288750B61F26AD839993989A /* HelpshiftConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = HelpshiftConfig.plist; path = "helpshift-sdk-ios-v5.8.0/HSThemes/HelpshiftConfig.plist"; sourceTree = "<group>"; };
-		F5A9BDD41C20BDD9CEF4AAC00368EBE0 /* Pods-FLHelpshift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLHelpshift.release.xcconfig"; sourceTree = "<group>"; };
-		FDB5FA113520C20C4B84C135A771AB42 /* Pods-FLHelpshift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLHelpshift-resources.sh"; sourceTree = "<group>"; };
+		1D66FF4416649C9C24A7A748AEE3D1CF /* HsUIResourceBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HsUIResourceBundle.bundle; path = "helpshift-sdk-ios-v5.9.1/HsUIResourceBundle.bundle"; sourceTree = "<group>"; };
+		2D5C588C55FDEC179C1F00E339D42987 /* Pods-FLHelpshift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLHelpshift.release.xcconfig"; sourceTree = "<group>"; };
+		38F1AD45722FEB910C76EDFE3A466406 /* Pods-FLHelpshift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FLHelpshift-acknowledgements.plist"; sourceTree = "<group>"; };
+		436FE09F439284DFCC0E31944FFDDAF2 /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftCampaigns.h; path = "helpshift-sdk-ios-v5.9.1/HelpshiftCampaigns.h"; sourceTree = "<group>"; };
+		4F86D68BD2D8E0EEB8832C622BD7C29C /* HelpshiftConfigDark.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = HelpshiftConfigDark.plist; path = "helpshift-sdk-ios-v5.9.1/HSThemes/HelpshiftConfigDark.plist"; sourceTree = "<group>"; };
+		553FAAED3B9EA025AC83CC0C016B1CC8 /* Pods-FLHelpshift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FLHelpshift-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		777437FB29B0344CEA9D001EDEAE54BA /* HelpshiftAll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftAll.h; path = "helpshift-sdk-ios-v5.9.1/HelpshiftAll.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B321BC9DE18503ABAD545BC28169079F /* Pods-FLHelpshift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FLHelpshift.debug.xcconfig"; sourceTree = "<group>"; };
+		BFF846429E44396890EDEFB4FD2F92E8 /* HelpshiftInbox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftInbox.h; path = "helpshift-sdk-ios-v5.9.1/HelpshiftInbox.h"; sourceTree = "<group>"; };
+		C6505BC78BD050DD67B68F95900BE55F /* libPods-FLHelpshift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-FLHelpshift.a"; path = "libPods-FLHelpshift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD8AD1D31219016D83CE79DC08CFC21 /* HelpshiftSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftSupport.h; path = "helpshift-sdk-ios-v5.9.1/HelpshiftSupport.h"; sourceTree = "<group>"; };
+		CF1319024362035C0A97DA866C21B7B6 /* Helpshift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Helpshift.h; path = "helpshift-sdk-ios-v5.9.1/Helpshift.h"; sourceTree = "<group>"; };
+		D5779212428DAF8ABF0698BE32EA041F /* HsLocalization.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = HsLocalization.bundle; path = "helpshift-sdk-ios-v5.9.1/HsLocalization.bundle"; sourceTree = "<group>"; };
+		D7A347491A13DB84EB4E84236A98CD16 /* Pods-FLHelpshift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FLHelpshift-resources.sh"; sourceTree = "<group>"; };
+		D855C927928FFA45CD6DC76175C6A121 /* Pods-FLHelpshift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FLHelpshift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD273F8BCC561A34438FFBE0CD804879 /* HelpshiftCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HelpshiftCore.h; path = "helpshift-sdk-ios-v5.9.1/HelpshiftCore.h"; sourceTree = "<group>"; };
+		FF89EDEF5CC8128543CF791D07A05A2C /* HelpshiftConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = HelpshiftConfig.plist; path = "helpshift-sdk-ios-v5.9.1/HSThemes/HelpshiftConfig.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		52231A1338B6D802C517EE1EF1EF25CB /* Frameworks */ = {
+		B15520302B31375737396224C0955995 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A63AD349C529A55ABE152837F14729E /* Foundation.framework in Frameworks */,
+				5FD77C4A4F951B1D3F29A8929E61C309 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		252DD4E7E754B36E654767186ADC7FA3 /* Resources */ = {
+		2ED58F872C2F75A32D464D6F4B091874 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F2A10AC7288750B61F26AD839993989A /* HelpshiftConfig.plist */,
-				A96ED652CBC31784D60D73DF3D382D2F /* HelpshiftConfigDark.plist */,
-				D46CB2FB3596BBE4DAE8EED7AF4911D5 /* HsLocalization.bundle */,
-				371F463D72C37CDC81117577FAB5C7AA /* HsUIResourceBundle.bundle */,
+				8043066A4151B4C14E777F3CD4DE46BF /* Pods-FLHelpshift */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3373D45863EF305A1CCC149625359CF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF89EDEF5CC8128543CF791D07A05A2C /* HelpshiftConfig.plist */,
+				4F86D68BD2D8E0EEB8832C622BD7C29C /* HelpshiftConfigDark.plist */,
+				D5779212428DAF8ABF0698BE32EA041F /* HsLocalization.bundle */,
+				1D66FF4416649C9C24A7A748AEE3D1CF /* HsUIResourceBundle.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		5D5D9D90AFACC6E53C4C93833A420D44 /* Helpshift */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				CF1319024362035C0A97DA866C21B7B6 /* Helpshift.h */,
+				777437FB29B0344CEA9D001EDEAE54BA /* HelpshiftAll.h */,
+				436FE09F439284DFCC0E31944FFDDAF2 /* HelpshiftCampaigns.h */,
+				FD273F8BCC561A34438FFBE0CD804879 /* HelpshiftCore.h */,
+				BFF846429E44396890EDEFB4FD2F92E8 /* HelpshiftInbox.h */,
+				CBD8AD1D31219016D83CE79DC08CFC21 /* HelpshiftSupport.h */,
+				3373D45863EF305A1CCC149625359CF2 /* Resources */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		715383B5279C67F0992617F646E86644 /* Pods-FLHelpshift */ = {
-			isa = PBXGroup;
-			children = (
-				173DB3177F86052862BE8100AE2D33A0 /* Pods-FLHelpshift-acknowledgements.markdown */,
-				2C892886130CA4EA27FD5EB85715733E /* Pods-FLHelpshift-acknowledgements.plist */,
-				3C61DAE89917EA0B6FB4FF8665008941 /* Pods-FLHelpshift-dummy.m */,
-				2F9DF03803DE0F377DBF3BAC6ADE8251 /* Pods-FLHelpshift-frameworks.sh */,
-				FDB5FA113520C20C4B84C135A771AB42 /* Pods-FLHelpshift-resources.sh */,
-				A806880B22935A564173345B48D7F1DE /* Pods-FLHelpshift.debug.xcconfig */,
-				F5A9BDD41C20BDD9CEF4AAC00368EBE0 /* Pods-FLHelpshift.release.xcconfig */,
-			);
-			name = "Pods-FLHelpshift";
-			path = "Target Support Files/Pods-FLHelpshift";
+			name = Helpshift;
+			path = Helpshift;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -87,38 +86,30 @@
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				8CF0537704A4628CAA27C46A9B54261D /* Pods */,
 				BA3F67BA1F503BBCDBEFD689BC7E31AB /* Products */,
-				AD82080469A3889B46B3FD90F7A4E5D8 /* Targets Support Files */,
+				2ED58F872C2F75A32D464D6F4B091874 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8043066A4151B4C14E777F3CD4DE46BF /* Pods-FLHelpshift */ = {
+			isa = PBXGroup;
+			children = (
+				D855C927928FFA45CD6DC76175C6A121 /* Pods-FLHelpshift-acknowledgements.markdown */,
+				38F1AD45722FEB910C76EDFE3A466406 /* Pods-FLHelpshift-acknowledgements.plist */,
+				553FAAED3B9EA025AC83CC0C016B1CC8 /* Pods-FLHelpshift-dummy.m */,
+				D7A347491A13DB84EB4E84236A98CD16 /* Pods-FLHelpshift-resources.sh */,
+				B321BC9DE18503ABAD545BC28169079F /* Pods-FLHelpshift.debug.xcconfig */,
+				2D5C588C55FDEC179C1F00E339D42987 /* Pods-FLHelpshift.release.xcconfig */,
+			);
+			name = "Pods-FLHelpshift";
+			path = "Target Support Files/Pods-FLHelpshift";
 			sourceTree = "<group>";
 		};
 		8CF0537704A4628CAA27C46A9B54261D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B5F76BE5DB7754370BF0B571AAFDDF0C /* Helpshift */,
+				5D5D9D90AFACC6E53C4C93833A420D44 /* Helpshift */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		AD82080469A3889B46B3FD90F7A4E5D8 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				715383B5279C67F0992617F646E86644 /* Pods-FLHelpshift */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		B5F76BE5DB7754370BF0B571AAFDDF0C /* Helpshift */ = {
-			isa = PBXGroup;
-			children = (
-				30C39F4A3FCC4C5A875055C8ED0ACDDF /* Helpshift.h */,
-				7591F442420BDC618D57673680A5BC2C /* HelpshiftAll.h */,
-				05E914FE2A2569633702566396657B9E /* HelpshiftCampaigns.h */,
-				BF2A8705EADC7AF30CC0DADB71DC5FD3 /* HelpshiftCore.h */,
-				626F7CFED7D022FDD4B82675C39A3438 /* HelpshiftInbox.h */,
-				B438A1F6136FA64214C8D2DDFD5F2446 /* HelpshiftSupport.h */,
-				252DD4E7E754B36E654767186ADC7FA3 /* Resources */,
-			);
-			path = Helpshift;
 			sourceTree = "<group>";
 		};
 		BA3F67BA1F503BBCDBEFD689BC7E31AB /* Products */ = {
@@ -132,20 +123,28 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EB8391B0CEF0B89973276636D82A5BD7 /* Pods-FLHelpshift */ = {
+		05F21AAE5DF06630B30749146D8D93DA /* Pods-FLHelpshift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 042348B4AC07D06B05DBF102FE41EF23 /* Build configuration list for PBXNativeTarget "Pods-FLHelpshift" */;
+			buildConfigurationList = DDE5B5D5533F663F93E7EDFF1EF4DE63 /* Build configuration list for PBXNativeTarget "Pods-FLHelpshift" */;
 			buildPhases = (
-				DD649555B9A55A8B0A151718CF0CB20C /* Sources */,
-				52231A1338B6D802C517EE1EF1EF25CB /* Frameworks */,
+				5AB023D95692185299D3037E0A43424A /* Sources */,
+				B15520302B31375737396224C0955995 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,7 +161,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -177,49 +176,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EB8391B0CEF0B89973276636D82A5BD7 /* Pods-FLHelpshift */,
+				05F21AAE5DF06630B30749146D8D93DA /* Pods-FLHelpshift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DD649555B9A55A8B0A151718CF0CB20C /* Sources */ = {
+		5AB023D95692185299D3037E0A43424A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B0087CE6020256274E736C8E8B1BC48 /* Pods-FLHelpshift-dummy.m in Sources */,
+				B284EDB21C85DD40C835E67441E56270 /* Pods-FLHelpshift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2C5BA75A56F1F73AEBD67F260FA9C324 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A806880B22935A564173345B48D7F1DE /* Pods-FLHelpshift.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -227,12 +206,16 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -250,24 +233,27 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		A42CAD176D573264F93028625369A459 /* Release */ = {
+		A915E7D413C15479B2F0DDA7BE5173BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5A9BDD41C20BDD9CEF4AAC00368EBE0 /* Pods-FLHelpshift.release.xcconfig */;
+			baseConfigurationReference = B321BC9DE18503ABAD545BC28169079F /* Pods-FLHelpshift.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -276,13 +262,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -290,12 +277,16 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -309,30 +300,54 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
+		D8274EB3543C44BA8825A76B272F5B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5C588C55FDEC179C1F00E339D42987 /* Pods-FLHelpshift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		042348B4AC07D06B05DBF102FE41EF23 /* Build configuration list for PBXNativeTarget "Pods-FLHelpshift" */ = {
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C5BA75A56F1F73AEBD67F260FA9C324 /* Debug */,
-				A42CAD176D573264F93028625369A459 /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		DDE5B5D5533F663F93E7EDFF1EF4DE63 /* Build configuration list for PBXNativeTarget "Pods-FLHelpshift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				47BEF9D903506B003EA5C2B249729489 /* Debug */,
-				AAF678CED40D3499169D10F63CA0719E /* Release */,
+				A915E7D413C15479B2F0DDA7BE5173BB /* Debug */,
+				D8274EB3543C44BA8825A76B272F5B1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

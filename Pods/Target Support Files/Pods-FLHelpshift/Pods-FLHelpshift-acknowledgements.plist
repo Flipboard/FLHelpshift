@@ -15,6 +15,8 @@
 		<dict>
 			<key>FooterText</key>
 			<string>See http://www.helpshift.com/terms/</string>
+			<key>License</key>
+			<string>Commercial</string>
 			<key>Title</key>
 			<string>Helpshift</string>
 			<key>Type</key>

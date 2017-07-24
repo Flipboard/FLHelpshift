@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5ED9CFCB7F0BDDC8051DE374 /* libPods-FLHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA992EE6FF9F7013E07EF5B3 /* libPods-FLHelpshift.a */; };
-		8E6F55D31D9E178100B74F68 /* Helpshift.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55CD1D9E178100B74F68 /* Helpshift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E6F55D41D9E178100B74F68 /* HelpshiftAll.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55CE1D9E178100B74F68 /* HelpshiftAll.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E6F55D51D9E178100B74F68 /* HelpshiftCampaigns.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55CF1D9E178100B74F68 /* HelpshiftCampaigns.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E6F55D61D9E178100B74F68 /* HelpshiftCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6F55D01D9E178100B74F68 /* HelpshiftCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -20,7 +19,6 @@
 		422F9885C67DF572310AA2A8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		4E090C709FE58555FBF1BC77 /* Pods-FLHelpshift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLHelpshift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FLHelpshift/Pods-FLHelpshift.release.xcconfig"; sourceTree = "<group>"; };
 		4F2BACFDB202CE790BB7A5EA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E6F55CD1D9E178100B74F68 /* Helpshift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Helpshift.h; path = Pods/Headers/Public/Helpshift/Helpshift.h; sourceTree = SOURCE_ROOT; };
 		8E6F55CE1D9E178100B74F68 /* HelpshiftAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpshiftAll.h; path = Pods/Headers/Public/Helpshift/HelpshiftAll.h; sourceTree = SOURCE_ROOT; };
 		8E6F55CF1D9E178100B74F68 /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpshiftCampaigns.h; path = Pods/Headers/Public/Helpshift/HelpshiftCampaigns.h; sourceTree = SOURCE_ROOT; };
 		8E6F55D01D9E178100B74F68 /* HelpshiftCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpshiftCore.h; path = Pods/Headers/Public/Helpshift/HelpshiftCore.h; sourceTree = SOURCE_ROOT; };
@@ -77,7 +75,6 @@
 		8E9253F61C37306C00ED8A9D /* FLHelpshift */ = {
 			isa = PBXGroup;
 			children = (
-				8E6F55CD1D9E178100B74F68 /* Helpshift.h */,
 				8E6F55CE1D9E178100B74F68 /* HelpshiftAll.h */,
 				8E6F55CF1D9E178100B74F68 /* HelpshiftCampaigns.h */,
 				8E6F55D01D9E178100B74F68 /* HelpshiftCore.h */,
@@ -109,7 +106,6 @@
 				8E6F55D81D9E178100B74F68 /* HelpshiftSupport.h in Headers */,
 				8E6F55D51D9E178100B74F68 /* HelpshiftCampaigns.h in Headers */,
 				8E6F55D71D9E178100B74F68 /* HelpshiftInbox.h in Headers */,
-				8E6F55D31D9E178100B74F68 /* Helpshift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +319,42 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Helpshift\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreSpotlight\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"QuickLook\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flipboard.FLHelpshift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -341,6 +373,42 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Helpshift\"",
+					"-l\"icucore\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreSpotlight\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"QuickLook\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"WebKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flipboard.FLHelpshift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;

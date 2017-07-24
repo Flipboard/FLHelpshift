@@ -80,16 +80,18 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "Helpshift/helpshift-sdk-ios-v5.9.1/HsUIResourceBundle.bundle"
-  install_resource "Helpshift/helpshift-sdk-ios-v5.9.1/HsLocalization.bundle"
-  install_resource "Helpshift/helpshift-sdk-ios-v5.9.1/HSThemes/HelpshiftConfig.plist"
-  install_resource "Helpshift/helpshift-sdk-ios-v5.9.1/HSThemes/HelpshiftConfigDark.plist"
+  install_resource "Helpshift/helpshift-sdk-ios-v6.0.0/HsUIResourceBundle.bundle"
+  install_resource "Helpshift/helpshift-sdk-ios-v6.0.0/HsLocalization.bundle"
+  install_resource "Helpshift/helpshift-sdk-ios-v6.0.0/HSThemes/HelpshiftConfig.plist"
+  install_resource "Helpshift/helpshift-sdk-ios-v6.0.0/HSThemes/HelpshiftConfigDark.plist"
+  install_resource "Helpshift/helpshift-sdk-ios-v6.0.0/HSThemes/HelpshiftConfigHighContrast.plist"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "Helpshift/helpshift-sdk-ios-v5.9.1/HsUIResourceBundle.bundle"
-  install_resource "Helpshift/helpshift-sdk-ios-v5.9.1/HsLocalization.bundle"
-  install_resource "Helpshift/helpshift-sdk-ios-v5.9.1/HSThemes/HelpshiftConfig.plist"
-  install_resource "Helpshift/helpshift-sdk-ios-v5.9.1/HSThemes/HelpshiftConfigDark.plist"
+  install_resource "Helpshift/helpshift-sdk-ios-v6.0.0/HsUIResourceBundle.bundle"
+  install_resource "Helpshift/helpshift-sdk-ios-v6.0.0/HsLocalization.bundle"
+  install_resource "Helpshift/helpshift-sdk-ios-v6.0.0/HSThemes/HelpshiftConfig.plist"
+  install_resource "Helpshift/helpshift-sdk-ios-v6.0.0/HSThemes/HelpshiftConfigDark.plist"
+  install_resource "Helpshift/helpshift-sdk-ios-v6.0.0/HSThemes/HelpshiftConfigHighContrast.plist"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

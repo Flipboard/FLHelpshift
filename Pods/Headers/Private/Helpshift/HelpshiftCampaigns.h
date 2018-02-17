@@ -1,1 +1,1 @@
-../../../Helpshift/helpshift-sdk-ios-v6.4.2/HelpshiftCampaigns.h
+../../../Helpshift/helpshift-sdk-ios-v6.4.3/HelpshiftCampaigns.h

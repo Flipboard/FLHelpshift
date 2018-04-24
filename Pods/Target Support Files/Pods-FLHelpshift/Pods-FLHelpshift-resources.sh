@@ -84,18 +84,18 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v6.4.3/HsUIResourceBundle.bundle"
-  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v6.4.3/HsLocalization.bundle"
-  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v6.4.3/HSThemes/HelpshiftConfig.plist"
-  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v6.4.3/HSThemes/HelpshiftConfigDark.plist"
-  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v6.4.3/HSThemes/HelpshiftConfigHighContrast.plist"
+  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.0/HsUIResources.bundle"
+  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.0/HsLocalization.bundle"
+  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.0/HSThemes/HelpshiftConfig.plist"
+  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.0/HSThemes/HelpshiftConfigDark.plist"
+  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.0/HSThemes/HelpshiftConfigHighContrast.plist"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v6.4.3/HsUIResourceBundle.bundle"
-  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v6.4.3/HsLocalization.bundle"
-  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v6.4.3/HSThemes/HelpshiftConfig.plist"
-  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v6.4.3/HSThemes/HelpshiftConfigDark.plist"
-  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v6.4.3/HSThemes/HelpshiftConfigHighContrast.plist"
+  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.0/HsUIResources.bundle"
+  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.0/HsLocalization.bundle"
+  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.0/HSThemes/HelpshiftConfig.plist"
+  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.0/HSThemes/HelpshiftConfigDark.plist"
+  install_resource "${PODS_ROOT}/Helpshift/helpshift-sdk-ios-v7.0.0/HSThemes/HelpshiftConfigHighContrast.plist"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

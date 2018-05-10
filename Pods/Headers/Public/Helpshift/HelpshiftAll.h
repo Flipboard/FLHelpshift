@@ -1,1 +1,1 @@
-../../../Helpshift/helpshift-sdk-ios-v7.0.0/HelpshiftAll.h
+../../../Helpshift/helpshift-sdk-ios-v7.0.1/HelpshiftAll.h

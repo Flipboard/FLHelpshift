@@ -1,16 +1,16 @@
 PODS:
-  - Helpshift (7.0.0)
+  - Helpshift (7.0.1)
 
 DEPENDENCIES:
-  - Helpshift (= 7.0.0)
+  - Helpshift (= 7.0.1)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Helpshift
 
 SPEC CHECKSUMS:
-  Helpshift: ecde1a78d01248d661f1f4c39a98b9fc798a3329
+  Helpshift: faef3e71f6dc388ebd23d5c6ae9d15f887a71fd6
 
-PODFILE CHECKSUM: 186e0164512e084c2efcab2055cf443d62c5e83f
+PODFILE CHECKSUM: f74eea1135acaecf59e0bfb7cec68a51fe04d888
 
 COCOAPODS: 1.5.0
